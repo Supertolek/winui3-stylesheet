@@ -9,7 +9,7 @@ a {
     color: var(--brand-foreground-link-rest);
     text-decoration: none;
 }
-a:nth-last-child(1) {
+a:last-child {
     margin-right: 0px;
 }
 

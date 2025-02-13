@@ -1,11 +1,11 @@
 menu {
     /* Position */
-    margin: 0px 0px 24px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 16px;
     display: flex;
     column-gap: 8px;
     /* Display */
-    background-color: var(--color-grey-96);
+    background-color: var(--neutral-background-2-rest);
     box-shadow: 0px 4px 8px 0px #00000024, 0px 0px 2px 0px #0000001F;
     border: none;
     border-radius: 8px;
@@ -15,7 +15,7 @@ menu {
 
 menu li {
     /* Position */
-    margin: 0px 12px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 5px 12px 7px 12px;
     /* Display */
     background-color: var(--brand-background-1-rest);

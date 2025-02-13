@@ -7,7 +7,7 @@ h1 {
     font-size: 32px;
     color: var(--color-grey-black);
 }
-h1:nth-last-child(1) {
+h1:last-child {
     margin-bottom: 0px;
 }
 
@@ -20,10 +20,10 @@ h2 {
     font-size: 28px;
     color: var(--color-grey-black);
 }
-h2:nth-child(1) {
+h2:first-child {
     margin-top: 0px;
 }
-h2:nth-last-child(1) {
+h2:last-child {
     margin-bottom: 0px;
 }
 
