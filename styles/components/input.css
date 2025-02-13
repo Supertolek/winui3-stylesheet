@@ -1,0 +1,75 @@
+input {
+    /* Position */
+    margin: 0px 12px 0px 0px;
+    padding: 5px 12px 7px 12px;
+    /* Display */
+    background-color: var(--neutral-background-1-rest);
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    /* Text */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--neutral-foreground-1-rest);
+    /* Stroke */
+    box-shadow: inset 0px -11px 0px -10px var(--neutral-stroke-accessible-rest),
+                inset 0px 0px 0px 1px var(--neutral-stroke-1-rest);
+}
+
+input:hover {
+    /* Display */
+    background-color: var(--neutral-background-1-rest);
+    /* Stroke */
+    box-shadow: inset 0px -11px 0px -10px var(--neutral-stroke-accessible-hover),
+                inset 0px 0px 0px 1px var(--neutral-stroke-1-hover);
+    /* Text */
+    color: var(--neutral-foreground-1-rest);
+}
+
+input:active {
+    /* Display */
+    background-color: var(--neutral-background-1-rest);
+    /* Stroke */
+    box-shadow: inset 0px -12px 0px -10px var(--neutral-stroke-accessible-pressed),
+                inset 0px 0px 0px 1px var(--neutral-stroke-1-pressed);
+    /* Text */
+    color: var(--neutral-foreground-1-rest);
+}
+
+input:focus:not(:active) {
+    /* Display */
+    background-color: var(--neutral-background-1-rest);
+    /* Stroke */
+    box-shadow: inset 0px -12px 0px -10px var(--brand-stroke-compound-rest),
+                inset 0px 0px 0px 1px var(--neutral-stroke-1-rest);
+    /* Text */
+    color: var(--neutral-foreground-1-rest);
+}
+
+input:invalid {
+    /* Display */
+    background-color: var(--neutral-background-1-rest);
+    /* Stroke */
+    box-shadow: inset 0px 0px 0px 1px var(--status-danger-stroke-2-rest);
+    /* Text */
+    color: var(--neutral-foreground-1-rest);
+}
+
+input:disabled {
+    /* Display */
+    background-color: var(--neutral-background-transparent-rest);
+    /* Stroke */
+    box-shadow: inset 0px 0px 0px 1px var(--neutral-stroke-disabled-rest);
+    /* Text */
+    color: var(--neutral-foreground-1-rest);
+}
+
+input:read-only {
+    /* Display */
+    background-color: transparent;
+    /* Stroke */
+    box-shadow: inset 0px 0px 0px 1px var(--neutral-stroke-disabled-rest);
+    /* Text */
+    color: var(--neutral-foreground-1-rest);
+}

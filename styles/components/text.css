@@ -1,0 +1,44 @@
+p {
+    /* Position */
+    margin: 0px 0px 12px 0px;
+    /* Text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-grey-black);
+}
+
+ul {
+    padding: 0px;
+}
+
+ul li {
+    /* Position */
+    margin: 0px 0px 0px 0px;
+    /* Text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-grey-black);
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "-";
+    margin: 0px 8px 0px 0px;
+}
+
+ol {
+    padding: 0px;
+}
+
+ol li {
+    /* Position */
+    margin: 0px 0px 0px 16px;
+    /* Text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-grey-black);
+    list-style-type: decimal;
+}

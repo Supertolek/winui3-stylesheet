@@ -1,0 +1,38 @@
+a {
+    /* Display */
+    margin: 0px 8px 0px 0px;
+    outline: none;
+    /* Text */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--brand-foreground-link-rest);
+    text-decoration: none;
+}
+a:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+a:hover {
+    /* Text */
+    color: var(--brand-foreground-link-hover);
+    text-decoration: underline;
+}
+
+a:active {
+    /* Text */
+    color: var(--brand-foreground-link-pressed);
+    text-decoration: underline;
+}
+
+a:focus:not(:active) {
+    /* Text */
+    color: var(--brand-foreground-link-rest);
+    text-decoration: underline double var(--neutral-stroke-focus-2-rest);
+}
+
+a:not([href]) {
+    /* Text */
+    color: var(--neutral-foreground-disabled-rest);
+    text-decoration: none;
+}

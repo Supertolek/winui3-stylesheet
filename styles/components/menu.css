@@ -1,0 +1,59 @@
+menu {
+    /* Position */
+    margin: 0px 0px 24px 0px;
+    padding: 16px;
+    display: flex;
+    column-gap: 8px;
+    /* Display */
+    background-color: var(--color-grey-96);
+    box-shadow: 0px 4px 8px 0px #00000024, 0px 0px 2px 0px #0000001F;
+    border: none;
+    border-radius: 8px;
+    /* List */
+    list-style-type: none;
+}
+
+menu li {
+    /* Position */
+    margin: 0px 12px 0px 0px;
+    padding: 5px 12px 7px 12px;
+    /* Display */
+    background-color: var(--brand-background-1-rest);
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    /* Text */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--neutral-foreground-onbrand-rest);
+}
+
+menu li:hover {
+    /* Display */
+    background-color: var(--brand-background-1-hover);
+}
+
+menu li:active {
+    /* Display */
+    background-color: var(--brand-background-1-pressed);
+}
+
+menu li:focus:not(:active) {
+    /* Display */
+    background-color: var(--brand-background-1-rest);
+    /* Focus specificities */
+    box-shadow: inset 0px 0px 0px 2px var(--neutral-stroke-focus-2-rest), inset 0px 0px 0px 3px var(--neutral-stroke-focus-1-rest);
+}
+
+menu li:has(a:not([href])) {
+    /* Display */
+    background-color: var(--neutral-background-disabled-rest);
+    /* Text */
+    color: var(--neutral-foreground-disabled-rest);
+}
+
+menu li a, a:hover, a:active, a:focus:not(:active) {
+    color: inherit;
+    text-decoration: none;
+}

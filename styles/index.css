@@ -1,0 +1,11 @@
+@import url("light.css") only screen and (prefers-color-scheme: light);
+@import url("dark.css") only screen and (prefers-color-scheme: dark);
+@import url("global.css");
+
+@import url("components/button.css");
+@import url("components/input.css");
+@import url("components/link.css");
+@import url("components/heading.css");
+@import url("components/text.css");
+@import url("components/panel.css");
+@import url("components/menu.css");

@@ -1,0 +1,141 @@
+:root {
+    /* Color/Grey */
+    --color-grey-black: #000000;
+    --color-grey-2: #050505;
+    --color-grey-4: #0A0A0A;
+    --color-grey-6: #0F0F0F;
+    --color-grey-8: #141414;
+    --color-grey-10: #1A1A1A;
+    --color-grey-12: #1F1F1F;
+    --color-grey-14: #242424;
+    --color-grey-16: #292929;
+    --color-grey-18: #2E2E2E;
+    --color-grey-20: #333333;
+    --color-grey-22: #383838;
+    --color-grey-24: #3D3D3D;
+    --color-grey-26: #424242;
+    --color-grey-28: #474747;
+    --color-grey-30: #4D4D4D;
+    --color-grey-32: #525252;
+    --color-grey-34: #575757;
+    --color-grey-36: #5C5C5C;
+    --color-grey-38: #616161;
+    --color-grey-40: #666666;
+    --color-grey-42: #6B6B6B;
+    --color-grey-44: #707070;
+    --color-grey-46: #757575;
+    --color-grey-48: #7A7A7A;
+    --color-grey-50: #808080;
+    --color-grey-52: #858585;
+    --color-grey-54: #8A8A8A;
+    --color-grey-56: #8F8F8F;
+    --color-grey-58: #949494;
+    --color-grey-60: #999999;
+    --color-grey-62: #9E9E9E;
+    --color-grey-64: #A3A3A3;
+    --color-grey-66: #A8A8A8;
+    --color-grey-68: #ADADAD;
+    --color-grey-70: #B3B3B3;
+    --color-grey-72: #B8B8B8;
+    --color-grey-74: #BDBDBD;
+    --color-grey-76: #C2C2C2;
+    --color-grey-78: #C7C7C7;
+    --color-grey-80: #CCCCCC;
+    --color-grey-82: #D1D1D1;
+    --color-grey-84: #D6D6D6;
+    --color-grey-86: #DBDBDB;
+    --color-grey-88: #E0E0E0;
+    --color-grey-90: #E6E6E6;
+    --color-grey-92: #EBEBEB;
+    --color-grey-94: #F0F0F0;
+    --color-grey-96: #F5F5F5;
+    --color-grey-98: #FAFAFA;
+    --color-grey-white: #FFFFFF;
+
+    /* Color/Brand */
+    --color-brand-10: #061724;
+    --color-brand-20: #082338;
+    --color-brand-30: #0A2E4A;
+    --color-brand-40: #0C3B5E;
+    --color-brand-50: #0E4775;
+    --color-brand-60: #0F548C;
+    --color-brand-70: #115EA3;
+    --color-brand-80: #0F6CBD;
+    --color-brand-90: #2886DE;
+    --color-brand-100: #479EF5;
+    --color-brand-110: #62ABF5;
+    --color-brand-120: #77B7F7;
+    --color-brand-130: #96C6FA;
+    --color-brand-140: #B4D6FA;
+    --color-brand-150: #CFE4FA;
+    --color-brand-160: #EBF3FC;
+    /* Brand/Background/1 */
+    --brand-background-1-rest: #0F6CBD;
+    --brand-background-1-hover: #115EA3;
+    --brand-background-1-pressed: #0C3B5E;
+    --brand-background-1-selected: #0F548C;
+
+    /* Brand/Foreground/Link */
+    --brand-foreground-link-rest: #115EA3;
+    --brand-foreground-link-hover: #0F548C;
+    --brand-foreground-link-pressed: #0C3B5E;
+    --brand-foreground-link-selected: #115EA3;
+
+    /* Status/Danger/Stroke/2 */
+    --status-danger-stroke-2-rest: #C50F1F;
+
+    /* Neutral/Foreground/On Brand */
+    --neutral-foreground-onbrand-rest: #FFFFFF;
+
+    /* Neutral/Background/Disabled */
+    --neutral-background-disabled-rest: #F0F0F0;
+    /* Neutral/Foreground/Disabled */
+    --neutral-foreground-disabled-rest: #BDBDBD;
+    /* Neutral/Stroke/Disabled */
+    --neutral-stroke-disabled-rest: #E0E0E0;
+    /* Neutral/Background/Transparent */
+    --neutral-background-transparent-rest: #FFFFFF00;
+    --neutral-background-transparent-hover: #FFFFFF00;
+    --neutral-background-transparent-pressed: #FFFFFF00;
+    --neutral-background-transparent-selected: #FFFFFF00;
+
+    /* Neutral/Background/1 */
+    --neutral-background-1-rest: #FFFFFF;
+    --neutral-background-1-hover: #F5F5F5;
+    --neutral-background-1-pressed: #E0E0E0;
+    --neutral-background-1-selected: #EBEBEB;
+    /* Neutral/Background/2 */
+    --neutral-background-2-rest: #FAFAFA;
+    /* Neutral/Foreground/1 */
+    --neutral-foreground-1-rest: #242424;
+    --neutral-foreground-1-hover: #242424;
+    --neutral-foreground-1-pressed: #242424;
+    --neutral-foreground-1-selected: #242424;
+    /* Neutral/Stroke/1 */
+    --neutral-stroke-1-rest: #D1D1D1;
+    --neutral-stroke-1-hover: #C7C7C7;
+    --neutral-stroke-1-pressed: #B3B3B3;
+    --neutral-stroke-1-selected: #BDBDBD;
+
+    /* Neutral/Stroke/Focus/1 */
+    --neutral-stroke-focus-1-rest: #FFFFFF;
+    /* Neutral/Stroke/Focus/2 */
+    --neutral-stroke-focus-2-rest: #000000;
+    /* Neutral/Stroke/Accessible */
+    --neutral-stroke-accessible-rest: #616161;
+    --neutral-stroke-accessible-hover: #575757;
+    --neutral-stroke-accessible-pressed: #4D4D4D;
+    --neutral-stroke-accessible-selected: #0F6CBD;
+    /* Brand/Stroke/Compound */
+    --brand-stroke-compound-rest: #0F6CBD;
+}
+
+body {
+    margin: 0px;
+    padding: 24px;
+    background-color: var(--neutral-background-2-rest);
+}
+
+article {
+    font-size: 0px;
+}
