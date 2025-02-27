@@ -1,0 +1,36 @@
+:root {
+    /* Color/Grey */
+    --color-grey-black: #f1f1f1;
+    /* Neutral/Foreground/On Brand */
+    --neutral-foreground-onbrand-rest: #000000;
+
+    /* Neutral/Background/Disabled */
+    --neutral-background-disabled-rest: #272727;
+    /* Neutral/Foreground/Disabled */
+    --neutral-foreground-disabled-rest: #696969;
+    /* Neutral/Stroke/Disabled */
+    --neutral-stroke-disabled-rest: #222222;
+    /* Neutral/Background/Transparent */
+    --neutral-background-transparent-rest: #00000000;
+    --neutral-background-transparent-hover: #00000000;
+    --neutral-background-transparent-pressed: #00000000;
+    --neutral-background-transparent-selected: #00000000;
+
+    /* Neutral/Background/1 */
+    --neutral-background-1-rest: #1d1d1d;
+    --neutral-background-1-hover: #202020;
+    --neutral-background-1-pressed: #272727;
+    --neutral-background-1-selected: #2b2b2b;
+    /* Neutral/Background/2 */
+    --neutral-background-2-rest: #222222;
+    /* Neutral/Foreground/1 */
+    --neutral-foreground-1-rest: #d6d6d6;
+    --neutral-foreground-1-hover: #d6d6d6;
+    --neutral-foreground-1-pressed: #d6d6d6;
+    --neutral-foreground-1-selected: #d6d6d6;
+    /* Neutral/Stroke/1 */
+    --neutral-stroke-1-rest: #383838;
+    --neutral-stroke-1-hover: #3f3f3f;
+    --neutral-stroke-1-pressed: #444444;
+    --neutral-stroke-1-selected: #353535;
+}
